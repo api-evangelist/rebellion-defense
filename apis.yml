@@ -1,8 +1,27 @@
 aid: rebellion-defense
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rebellion-defense.png
 name: Rebellion Defense
-description: 'Rebellion Defense is a company surfaced as a portfolio company of insight-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: government. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Rebellion Defense (rebelliondefense.com) is a defense-technology company
+  building an AI-driven "intelligence shield" for protecting critical infrastructure
+  and military assets — combining multi-band AESA radar sensing (ARGUS/SPECTRUM),
+  AI track-fusion and threat prediction (PRISM), operator alerting and situational
+  awareness (IRIS/STATUS), and effector command-and-control (HADES) on an integrated
+  RBLN-OS platform. Recent public activity includes U.S. Navy contracts and
+  designation as an awardable vendor on the CDAO Tradewinds Solutions Marketplace.
+  The company publishes a marketing site only: as of this enrichment pass no public
+  API, developer portal, SDKs, or machine-readable discovery surface is exposed.
+  Added to the API Evangelist network as an Insight Partners portfolio lead.'
 url: https://raw.githubusercontent.com/api-evangelist/rebellion-defense/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Government
+- Defense
+- National Security
+- Artificial Intelligence
+- Critical Infrastructure
+- Radar
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,14 @@ maintainers:
 common:
 - type: Website
   url: https://rebelliondefense.com/
+- type: PrivacyPolicy
+  url: https://rebelliondefense.com/privacy-policy
+- type: DomainSecurity
+  url: security/rebellion-defense-domain-security.yml
+- type: WellKnown
+  url: well-known/rebellion-defense-well-known.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
